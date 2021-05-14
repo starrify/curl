@@ -7,9 +7,11 @@ on:
     branches:
     - master
     - '*/ci'
+    - tmp-test-macos-ci-actions
   pull_request:
     branches:
     - master
+    - tmp-test-macos-ci-actions
 
 jobs:
   autotools:
